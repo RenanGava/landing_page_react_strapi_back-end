@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_menu_menus",
+  "info": {
+    "displayName": "menu",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo_text": {
+      "type": "string",
+      "required": true
+    },
+    "menu_link": {
+      "displayName": "menu_links",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-links",
+      "required": true
+    },
+    "logo_link": {
+      "type": "string",
+      "required": true
+    },
+    "open_in_new_tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
